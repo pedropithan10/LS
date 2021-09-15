@@ -5,7 +5,15 @@ const salvar = function(){
    let vtamanho = document.getElementById('size').value;
    let vmarca = document.getElementById('brand').value
 
-   cadastro.push([vnome,vtamanho,vmarca])
+   cadastro.push([vnome,vtamanho,vmarca, ' | '])
    
     localStorage.setItem("cadastro",JSON.stringify(cadastro))
+}
+let z = []
+
+const buscar = function(){
+   
+    localStorage.getItem("cadastro",JSON.stringify(z))
+
+    alert(cadastro)
 }
