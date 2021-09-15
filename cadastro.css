@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+    font-family: Arial;
+    text-align: center;
+    
+}
+
+header{
+    background-color: rgb(0, 0, 0);
+    color: #ffffff;
+    padding: 1px;
+}
+
+input{
+    width: 50%;
+    border-radius: 0.45em;
+    padding: 8px;
+    text-align: center;
+    border:1px solid #2800da;
+    background-color: #fcfcfc;
+    
+}
+
+button{
+    width: 50%;
+    border-radius: 0.45em;
+    padding: 8px;
+    background-color: #2800da;
+    outline: none;
+    color: #fff;
+}
+
